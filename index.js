@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
  });
     res.send("MVC Application is in progess ");
 })
-const MONGO_CONNECTION = "mongodb+srv://sultan:67YhGQHkFJ5eHVZV@myapp.kgvwli7.mongodb.net/crud_test"; 
+const MONGO_CONNECTION = ""; 
 
 mongoose.connect(MONGO_CONNECTION).then(() => {
     app.listen(port, () => {
